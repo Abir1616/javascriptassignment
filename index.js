@@ -5,7 +5,7 @@ function calculateDifference(a,b){
 }
 let func = calculateDifference(5,10);
 let result =Math.abs(func);
-console.log("The difference between the first and second arguments is "+result); 
+console.log("The difference between the first and second arguments is: "+result); 
 
 
 //Write a function named isOdd that takes one argument and returns true if the number is odd, and false if it is not.
@@ -36,7 +36,7 @@ function findMin(arr){
 }
 let number = [77,66,22,99,55];
 let minnum = findMin(number);
-console.log("The smallest number of the array is "+minnum);
+console.log(minnum);
 
 //Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing only the even numbers.
 
@@ -47,7 +47,7 @@ function filterEvenNumbers(arr){
 }
 let Numbers = [11,22,33,44,55,66,77]
 let evennumbers = filterEvenNumbers(Numbers);
-console.log("The new array of even numbers is "+evennumbers);
+console.log(evennumbers);
 
 //Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
 
@@ -56,7 +56,7 @@ function sortArrayDescending(arr){
 }
 let numbers = [60,90,20,40,20,10,30];
 let newsortedarray = sortArrayDescending(numbers);
-console.log("The new array sorted in descending order is "+newsortedarray);
+console.log(newsortedarray);
 
 //Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
 
@@ -79,7 +79,7 @@ function countVowels(str){
     return count;
 }
 let totalvowel = countVowels("An owl flies over the tree") 
-console.log("The vowels found in this sentence are "+totalvowel);
+console.log("The vowels found in this sentence are: "+totalvowel);
 
 //Write a function named findAverage that takes an array of numbers and returns the average of all elements.
 
@@ -93,6 +93,6 @@ function findAverage(arr){
 let num = [2,3,4,5,6,7,8];
 let average =findAverage(num);
 let Result = average / num.length;
-console.log("The average of the numbers is "+Result);
+console.log("The average of the numbers is: "+Result);
 
 
